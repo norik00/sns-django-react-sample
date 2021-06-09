@@ -1,0 +1,18 @@
+{% extends "network/layout.html" %}
+{% load static %}
+
+{% block body %}
+
+    <section id="main" class="container-lg mt-3"></section>
+
+ 
+    {% block script %}
+
+        <script>
+            var isLogin = `{{ user.is_authenticated}}`
+            var loginUserId = `{{ user.id }}`
+        </script>
+
+        <script src="{% static 'network/main.js' %}" type="text/babel"></script>
+    {% endblock %}
+{% endblock %}

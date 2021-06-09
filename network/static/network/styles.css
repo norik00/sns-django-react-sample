@@ -1,0 +1,27 @@
+body {
+    min-width: 1223px;
+    font-size: 16px;
+    font-family: 'KoHo', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+}
+
+.form-control {
+    font-size: inherit;
+}
+
+.break-spaces {
+    white-space: break-spaces;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.red {
+    color: #fd488e;
+}
+
+.gray {
+    color: #b4b4b4;
+}
