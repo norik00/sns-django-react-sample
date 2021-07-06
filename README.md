@@ -234,6 +234,7 @@ Set `X-NETWORKTOKEN` in headers. How to get `csrf cookie` is `Cookies.get('netwo
 This command is providing initial data for models.
 
 ```
+$ python manage.py migrate network
 $ python manage.py migrate
 ```
 
